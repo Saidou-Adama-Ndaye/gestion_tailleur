@@ -43,7 +43,7 @@ class _NouvelleClientState extends State<NouvelleClient> {
               borderRadius: BorderRadius.circular(20.0), // Coins arrondis
             ),
             child: Container(
-              height: 510.h,
+              height: 520.h,
               child: Column(
                 children: [
                   MyForm(),
@@ -73,7 +73,7 @@ class _NouvelleClientState extends State<NouvelleClient> {
               ),
             ),
           ),
-          SizedBox(height: 20.h),
+          SizedBox(height: 15.h),
           Center(
             child: SizedBox(
               width: 300.w,

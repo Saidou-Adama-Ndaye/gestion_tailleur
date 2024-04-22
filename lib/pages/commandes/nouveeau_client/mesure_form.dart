@@ -31,6 +31,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur des épaules : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -60,6 +74,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur des manches : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -89,6 +117,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur de la poitrine : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -118,6 +160,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur de la longueur : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -148,6 +204,20 @@ class MesureForm extends StatelessWidget {
                     print(
                         'Nouvelle valeur de la longueur du pantalon : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -177,6 +247,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur de la ceinture : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -206,6 +290,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur des hanches : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -235,6 +333,20 @@ class MesureForm extends StatelessWidget {
                     // Vous pouvez utiliser cette fonction pour récupérer la valeur saisie
                     print('Nouvelle valeur du cou : $value');
                   },
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 5.w),
+                    filled: true,
+                    fillColor: Color.fromARGB(255, 255, 255, 255),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                      borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 62, 104, 139),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],

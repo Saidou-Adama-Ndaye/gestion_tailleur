@@ -23,7 +23,7 @@ class _MyFormState extends State<MyForm> {
                   color: Color.fromARGB(255, 62, 104, 139),
                 ),
                 filled: true,
-                fillColor: const Color.fromARGB(255, 240, 240, 240),
+                fillColor: Color.fromARGB(255, 255, 255, 255),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
                 ),
@@ -33,10 +33,12 @@ class _MyFormState extends State<MyForm> {
                     color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
+                contentPadding:
+                    EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               ),
             ),
           ),
-          SizedBox(height: 10.h),
+          SizedBox(height: 5.h),
           Container(
             margin: EdgeInsets.only(left: 20.w, right: 20.w),
             child: TextFormField(
@@ -47,7 +49,7 @@ class _MyFormState extends State<MyForm> {
                   color: Color.fromARGB(255, 62, 104, 139),
                 ),
                 filled: true,
-                fillColor: const Color.fromARGB(255, 240, 240, 240),
+                fillColor: Color.fromARGB(255, 255, 255, 255),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
                 ),
@@ -57,10 +59,12 @@ class _MyFormState extends State<MyForm> {
                     color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
+                contentPadding:
+                    EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               ),
             ),
           ),
-          SizedBox(height: 10.h),
+          SizedBox(height: 5.h),
           Container(
             margin: EdgeInsets.only(left: 20.w, right: 20.w),
             child: TextFormField(
@@ -71,7 +75,7 @@ class _MyFormState extends State<MyForm> {
                   color: Color.fromARGB(255, 62, 104, 139),
                 ),
                 filled: true,
-                fillColor: const Color.fromARGB(255, 240, 240, 240),
+                fillColor: Color.fromARGB(255, 255, 255, 255),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
                 ),
@@ -81,6 +85,8 @@ class _MyFormState extends State<MyForm> {
                     color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
+                contentPadding:
+                    EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               ),
               keyboardType: TextInputType.phone,
             ),
