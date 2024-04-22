@@ -1,8 +1,8 @@
 import 'package:accordion/accordion.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sn_tailleur/pages/commandes/nouveeau_client/mesure_form.dart';
 import 'package:sn_tailleur/pages/commandes/nouveeau_client/my_form.dart';
-import 'package:sn_tailleur/pages/user_profil_details/mesures_content.dart';
 
 class NouvelleClient extends StatefulWidget {
   const NouvelleClient({
@@ -32,7 +32,7 @@ class _NouvelleClientState extends State<NouvelleClient> {
         children: [
           Card(
             margin: EdgeInsets.only(
-              top: 20.sp,
+              top: 10.sp,
               left: 20.sp,
               right: 20.sp,
             ),
@@ -43,7 +43,7 @@ class _NouvelleClientState extends State<NouvelleClient> {
               borderRadius: BorderRadius.circular(20.0), // Coins arrondis
             ),
             child: Container(
-              height: 500.h,
+              height: 510.h,
               child: Column(
                 children: [
                   MyForm(),
@@ -64,7 +64,7 @@ class _NouvelleClientState extends State<NouvelleClient> {
                             vertical: 10.sp,
                             horizontal: 20.sp,
                           ),
-                          content: const MesuresContent(),
+                          content: const MesureForm(),
                         ),
                       ],
                     ),

@@ -18,7 +18,10 @@ class _MyFormState extends State<MyForm> {
             child: TextFormField(
               decoration: InputDecoration(
                 labelText: 'Nom Complet',
-                prefixIcon: Icon(Icons.person),
+                prefixIcon: const Icon(
+                  Icons.person,
+                  color: Color.fromARGB(255, 62, 104, 139),
+                ),
                 filled: true,
                 fillColor: const Color.fromARGB(255, 240, 240, 240),
                 border: OutlineInputBorder(
@@ -26,8 +29,8 @@ class _MyFormState extends State<MyForm> {
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
-                  borderSide: BorderSide(
-                    color: const Color.fromARGB(255, 62, 104, 139),
+                  borderSide: const BorderSide(
+                    color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
               ),
@@ -39,7 +42,10 @@ class _MyFormState extends State<MyForm> {
             child: TextFormField(
               decoration: InputDecoration(
                 labelText: 'Adresse',
-                prefixIcon: Icon(Icons.location_on),
+                prefixIcon: const Icon(
+                  Icons.location_on,
+                  color: Color.fromARGB(255, 62, 104, 139),
+                ),
                 filled: true,
                 fillColor: const Color.fromARGB(255, 240, 240, 240),
                 border: OutlineInputBorder(
@@ -47,8 +53,8 @@ class _MyFormState extends State<MyForm> {
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
-                  borderSide: BorderSide(
-                    color: const Color.fromARGB(255, 62, 104, 139),
+                  borderSide: const BorderSide(
+                    color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
               ),
@@ -60,7 +66,10 @@ class _MyFormState extends State<MyForm> {
             child: TextFormField(
               decoration: InputDecoration(
                 labelText: 'Téléphone',
-                prefixIcon: Icon(Icons.phone),
+                prefixIcon: const Icon(
+                  Icons.phone,
+                  color: Color.fromARGB(255, 62, 104, 139),
+                ),
                 filled: true,
                 fillColor: const Color.fromARGB(255, 240, 240, 240),
                 border: OutlineInputBorder(
@@ -68,8 +77,8 @@ class _MyFormState extends State<MyForm> {
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20.0),
-                  borderSide: BorderSide(
-                    color: const Color.fromARGB(255, 62, 104, 139),
+                  borderSide: const BorderSide(
+                    color: Color.fromARGB(255, 62, 104, 139),
                   ),
                 ),
               ),
